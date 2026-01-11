@@ -135,7 +135,7 @@ We worked **collaboratively on all components** without fixed roles, using pair 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language**: C (C99)
 - **Compiler**: `cc` with `-Wall -Wextra -Werror`
 - **Libraries**: readline, custom libft
