@@ -27,6 +27,15 @@
 # include <unistd.h>
 # include <errno.h>
 
+#define BLUE    "\033[38;2;0;153;204m"
+#define GREEN   "\033[38;2;153;204;51m"
+#define YELLOW  "\033[38;2;255;229;19m"
+#define BOLD "\033[1m"
+#define MAGENTA "\033[1;35m" 
+#define RED "\033[38;2;204;0;51m"
+#define RESET "\033[0m"
+#define PROMPT "\033[38;2;102;255;255m"
+
 typedef struct s_quote_exp
 {
 	int					start;

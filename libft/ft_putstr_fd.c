@@ -17,7 +17,9 @@ void	ft_putstr_fd(char *str, int fd, int option)
 	size_t	len;
 
 	len = ft_strlen(str);
+	write(fd, RED, sizeof(RED));
 	write(fd, str, len);
+	write(fd, RESET, sizeof(RESET));
 	if (option == 1)
 		write(fd, "\n", 1);
 }
